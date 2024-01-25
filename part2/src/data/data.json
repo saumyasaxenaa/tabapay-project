@@ -1,0 +1,80 @@
+[
+  {
+    "title": "root",
+    "id": "0",
+    "name": "level0",
+    "value": "root",
+    "level": "1",
+    "children": [
+      {
+        "title": "Parent A",
+        "id": "01",
+        "name": "level1",
+        "value": "parentA",
+        "level": "2",
+        "children": [
+          {
+            "title": "Child A1",
+            "id": "011",
+            "name": "level2",
+            "value": "childA1",
+            "level": "3"
+          },
+          {
+            "title": "Child Parent A2",
+            "id": "012",
+            "name": "level2",
+            "value": "parentchildA2",
+            "level": "3",
+            "children": [
+              {
+                "title": "Child A21",
+                "id": "0121",
+                "name": "level3",
+                "value": "childA21",
+                "level": "4"
+              },
+              {
+                "title": "Child A22",
+                "id": "0122",
+                "name": "level3",
+                "value": "ChildA22",
+                "level": "4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Parent B",
+        "id": "02",
+        "name": "level1",
+        "value": "parentB",
+        "level": "2",
+        "children": [
+          {
+            "title": "Child B1",
+            "id": "021",
+            "name": "level2",
+            "value": "childB1",
+            "level": "3"
+          },
+          {
+            "title": "Child B2",
+            "id": "022",
+            "name": "level2",
+            "value": "childB2",
+            "level": "3"
+          },
+          {
+            "title": "Child B3",
+            "id": "023",
+            "name": "level2",
+            "value": "childB3",
+            "level": "3"
+          }
+        ]
+      }
+    ]
+  }
+]
