@@ -1,0 +1,30 @@
+.navbar {
+  background: #10d;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  grid-area: logo;
+  height: 70px;
+  margin-left: 20px;
+}
+
+.sidebar {
+  background: rgb(3, 67, 163);
+  width: 250px;
+  height: 85vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 350ms;
+  margin-top: 90px;
+}
+
+.sidebar-wrap {
+  width: 100%;
+}
